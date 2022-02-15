@@ -29,10 +29,3 @@ jobs:
         env:
           MERGE_LABELS: ""
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
-
-      - name: Discord notification
-        env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-        uses: Ilshidur/action-discord@master
-        with:
-          args: 'The summary ${{github.event.pull_request.head.repo.full_name }} has been accepted.'
