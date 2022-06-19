@@ -1,0 +1,47 @@
+Salma Nur Rahma 
+RESUME 3  
+MI2A_25
+
+Navigator
+
+Di flutter, Navigator mengelola tumpukan yang berisi rute aplikasi. Mendorong rute ke tumpukan Navigator memperbarui tampilan ke rute itu. Memunculkan rute dari tumpukan Navigator akan mengembalikan tampilan ke rute sebelumnya.
+Membuat rute dan dorong ke tumpukan Navigator. Tindakan itu mengubah layar untuk menampilkan rute baru. Konten untuk halaman baru dibangun di properti pembuat MaterialPageRoute dalam fungsi anonim.
+void _pushSaved() {
+  Navigator.of(context).push(
+  );
+}
+
+
+ThemeData
+Anda dapat dengan mudah mengubah tema aplikasi dengan mengonfigurasi kelas ThemeData. Sebagai contoh, gunakan ThemeData untuk mengubah aspek lain dari UI. Kelas Warna di pustaka Material menyediakan banyak konstanta warna yang bisa Anda mainkan. Hot reload membuat eksperimen dengan UI cepat dan mudah.
+ Widget build(BuildContext context) {
+    return MaterialApp(         
+      title: 'Startup Name Generator',
+      theme: ThemeData(         
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.white,
+          foregroundColor: Colors.black,
+        ),
+        
+        
+
+Hot Reload dan Hot Restart
+Hot Reload memiliki simbol button petir sedangkan Hot Restart simbol buttonnya bulat. Hot Reload dapat dilakukan selama semua widget material yang diedit berada di fanction dan tidak diubah-ubah.Hot Reload dan Hot Restart lebih lama Hot Restart. Apabila ada perubahan diluar build maka akan terjadi Hot Restart dan jika menambah variable, rename class maka Hot Restart.
+________________________________________
+
+
+
+
+Stateless Widget
+•	lutter --> Widget
+•	Dalam OOP kita dapat memasukkan objek dari turunan parent .
+•	Compile edit tidak dapat diubah ketika kode dijalankan, apabila ingin di ubah maka dilakukan recompile.
+•	Class terdiri dari variable dan konstruktor.
+
+
+
+Stateless Widget
+Stateless Widget adalah widget yang tidak pernah berubah.Stateless Widget hanya bertugas untuk menapilkan tidak bisa mempunyai data yang dinamis.Didalam Satateless tidak dapat memiliki data dan hanya menampilkan data.
+•	contoh dari Stateless Widget
+1.	Text Widget(Menampilakn text)
+2.	Icon Wdiget (menampilkan icon)
